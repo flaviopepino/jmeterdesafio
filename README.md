@@ -5,6 +5,7 @@ Compra de passagem aérea - Passagem comprada com sucesso.
 
 ## Description
 
+* Montar teste de carga e teste  de pico.
 * 250 requisições por segundo com um tempo de resposta 90th percentil inferior a 2 segundos.
 
 
@@ -14,27 +15,20 @@ Compra de passagem aérea - Passagem comprada com sucesso.
 
 * Jmeter
 * Jmeter plugins
-* Jmeter 
+* Jmeter Custom Thread Group
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Baixar jmeter jmeter.apache.org
+* baixar plugins manager em https://jmeter-plugins.org
+* NO Jmeter GUI , ir em Options -> Plugin Manager e baixar  Custom Thread Group
+
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+*  Abra o arquivo compra_passagem_area.jmx pela GUi do Jmeter, e habilite o Teste de Carga ou Teste de Pico. Salve o arquivo. 
+* Rode jmeter -n -t caminho/compra_passagem_area.jmx -l resultado.jtl -e -o pastavazia , onde pastavazia é um diretório vazio para receber o relatório.
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
