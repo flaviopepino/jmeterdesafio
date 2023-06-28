@@ -1,0 +1,5 @@
+O percentil 90 foi 3649.00 ms, e o critério de aceitação não foi atingido.
+Sugiro a execução do teste em ambiente Cloud, visto que o teste foi disparado da minha máquina local.
+Sugiro, para melhor entendimento do teste , escolher um ambiente segregado e controlado, para que não haja 
+interferência de outras requisições fora do teste.
+

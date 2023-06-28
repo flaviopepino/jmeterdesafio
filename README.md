@@ -30,9 +30,15 @@ Compra de passagem aérea - Passagem comprada com sucesso.
 * Rode jmeter -n -t caminho/compra_passagem_area.jmx -l resultado.jtl -e -o pastavazia , onde pastavazia é um diretório vazio para receber o relatório.
 
 
-## Authors
+## Resultados
 
-Contributors names and contact info
+Teste de Carga
+em jmeterdesafio/resultadocarga
+analise.txt contém uma breve análise do teste.
+
+Teste de Pico
+em jmeterdesafio/resultadopico
+
 
 Flavio Pepino
 
